@@ -2,17 +2,8 @@
 # Author: Leo Bastos
 # Modified by Lucas Bianchi
 
-setwd("~/Lucas/Fiocruz/Infodengue/AlertTools/R")
 source("utility_tools.R")
-
-## Claudia
-setwd("~/Lucas/Fiocruz/Infodengue/Dados")
 load("dengueERJ.RData")
-dengueERJ <- d
-
-## Leo
-setwd("~/Lucas/Fiocruz/Infodengue/Delay-master/Code/Dengue")
-load("denguesinan.RData")
 colnames(d) <- c("DT_NOTIF","SEM_NOTIF","ANO_NOTIF","DT_SIN_PRI","DT_DIGITA","SEM_SIN_PRI","SEM_DIG")
 
 # Formating data
