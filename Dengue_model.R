@@ -12,7 +12,6 @@ colnames(dengueERJ) <- c("DT_NOTIF","SEM_NOTIF","ANO_NOTIF","DT_SIN_PRI","SEM_SI
 dengueERJ$SEM_NOTIF <- episem(x= as.Date(dengueERJ$DT_NOTIF, format="%Y-%m-%d"))
 dengueERJ$SEM_SIN_PRI <- episem(x= as.Date(dengueERJ$DT_SIN_PRI, format="%Y-%m-%d"))
 dengueERJ$SEM_DIG <- episem(x= as.Date(dengueERJ$DT_DIGITA, format="%Y-%m-%d"))
-d <- dengueERJ
 
 # Reporting delay modelling of Dengue
 require(INLA)
@@ -288,14 +287,8 @@ round(output$summary.hyperpar,2)
 #x11(width=15,height=10)
 par(mfrow=c(3,4), mar = c(2.2,2.2,1,1) + 0.1,cex=1.1,oma = c(2, 2, 0, 0))
 
-for(Tactual in nrow(delay.data.obs.trian):(nrow(delay.data.obs.trian)+Dmax)){
-  print(paste0("Predição ",match(Tactual,c(nrow(delay.data.obs.trian):(nrow(delay.data.obs.trian)+Dmax)))," de ",  length(c(nrow(delay.data.obs.trian):(nrow(delay.data.obs.trian)+Dmax)))," concluída"))
-  
-  }
-
 seq <- nrow(delay.data.obs.trian):(nrow(delay.data.obs.trian)+Dmax)
 for(Tactual in nrow(delay.data.obs.trian):(nrow(delay.data.obs.trian)+Dmax)){
-  print(paste0("Predição ",match(Tactual,seq)," de ",  length(seq)," concluída"))
   # Observed data
   delay.data.obs <- delay.data[1:Tactual,(0:Dmax)+1]
   # Time index of the unknown counts (Dmax+1,...,Tactual) 
@@ -317,6 +310,8 @@ for(Tactual in nrow(delay.data.obs.trian):(nrow(delay.data.obs.trian)+Dmax)){
                  control.family = list( 
                    hyper = list("theta" = list(prior = "loggamma", param = c(1, 0.1)))),
   )
+  print(paste0("Predição ",match(Tactual,seq)," de ",  length(seq)," concluída"))
+
   delay.samples.list <- inla.posterior.sample(n = 1000, output)
   # Sampling the missing triangle from inla output in vector format
   vector.samples <- lapply(X = delay.samples.list, FUN = function(x, idx = index.missing) rnbinom(n = idx, mu = exp(x$latent[idx]), size = x$hyperpar[1])) 
