@@ -15,7 +15,7 @@ RO;11;130;Machadinho D'Oeste;39.991
 RO;11;148;Nova Brasilândia D'Oeste;20.474
 RO;11;155;Ouro Preto do Oeste;36.035
 RO;11;189;Pimenta Bueno;36.660
-RO;11;205;Porto Velho;529.544(1)
+RO;11;205;Porto Velho;529.544
 RO;11;254;Presidente Médici;18.986
 RO;11;262;Rio Crespo;3.764
 RO;11;288;Rolim de Moura;55.058
@@ -109,7 +109,7 @@ AM;13;2207;Juruá;14.712
 AM;13;2306;Jutaí;14.317
 AM;13;2405;Lábrea;46.069
 AM;13;2504;Manacapuru;97.377
-AM;13;2553;Manaquiri;32.105(2)
+AM;13;2553;Manaquiri;32.105
 AM;13;2603;Manaus;2.182.763
 AM;13;2702;Manicoré;55.751
 AM;13;2801;Maraã;18.224
@@ -122,7 +122,7 @@ AM;13;3403;Parintins;114.273
 AM;13;3502;Pauini;19.426
 AM;13;3536;Presidente Figueiredo;36.279
 AM;13;3569;Rio Preto da Eva;33.347
-AM;13;3601;Santa Isabel do Rio Negro;25.156(3)
+AM;13;3601;Santa Isabel do Rio Negro;25.156
 AM;13;3700;Santo Antônio do Içá;21.602
 AM;13;3809;São Gabriel da Cachoeira;45.564
 AM;13;3908;São Paulo de Olivença;39.299
@@ -132,8 +132,8 @@ AM;13;4062;Tabatinga;65.844
 AM;13;4104;Tapauá;17.156
 AM;13;4203;Tefé;59.849
 AM;13;4237;Tonantins;18.755
-AM;13;4260;Uarini;13540 (21)
-AM;13;4302;Urucará;16.256(4)
+AM;13;4260;Uarini;13540
+AM;13;4302;Urucará;16.256
 AM;13;4401;Urucurituba;23.065
 RR;14;27;Amajari;12.796
 RR;14;50;Alto Alegre;15.510
@@ -209,7 +209,7 @@ PA;15;3457;Ipixuna do Pará;64.053
 PA;15;3507;Irituia;32.550
 PA;15;3606;Itaituba;101.247
 PA;15;3705;Itupiranga;53.269
-PA;15;3754;Jacareacanga;8.239(5)
+PA;15;3754;Jacareacanga;8.239
 PA;15;3804;Jacundá;59.155
 PA;15;3903;Juruti;57.943
 PA;15;4000;Limoeiro do Ajuru;28.935
@@ -578,7 +578,7 @@ MA;21;7308;Nova Iorque;4.683
 MA;21;7357;Nova Olinda do Maranhão;20.928
 MA;21;7407;Olho d'Água das Cunhãs;19.505
 MA;21;7456;Olinda Nova do Maranhão;14.701
-MA;21;7506;Paço do Lumiar;122.197(6)
+MA;21;7506;Paço do Lumiar;122.197
 MA;21;7605;Palmeirândia;19.722
 MA;21;7704;Paraibano;21.386
 MA;21;7803;Parnarama;34.907
@@ -1204,7 +1204,7 @@ RN;24;11601;São Bento do Norte;2.747
 RN;24;11700;São Bento do Trairí;4.449
 RN;24;11809;São Fernando;3.584
 RN;24;11908;São Francisco do Oeste;4.228
-RN;24;12005;São Gonçalo do Amarante;102.400(7)
+RN;24;12005;São Gonçalo do Amarante;102.400
 RN;24;12104;São João do Sabugi;6.193
 RN;24;12203;São José de Mipibu;43.899
 RN;24;12302;São José do Campestre;12.856
@@ -1525,7 +1525,7 @@ PE;26;5202;Escada;68.875
 PE;26;5301;Exu;31.825
 PE;26;5400;Feira Nova;22.131
 PE;26;5459;Fernando de Noronha;3.061
-PE;26;5509;Ferreiros;12.123(8)
+PE;26;5509;Ferreiros;12.123
 PE;26;5608;Flores;22.624
 PE;26;5707;Floresta;32.873
 PE;26;5806;Frei Miguelinho;15.457
@@ -1829,14 +1829,14 @@ SE;28;7600;Umbaúba;25.294
 BA;29;108;Abaíra;8.739
 BA;29;207;Abaré;20.086
 BA;29;306;Acajutiba;15.159
-BA;29;355;Adustina;17.040(9)
+BA;29;355;Adustina;17.040
 BA;29;405;Água Fria;16.970
 BA;29;504;Érico Cardoso;10.610
 BA;29;603;Aiquara;4.446
 BA;29;702;Alagoinhas;151.596
 BA;29;801;Alcobaça;22.470
 BA;29;900;Almadina;5.464
-BA;29;1007;Amargosa;37.241(10)
+BA;29;1007;Amargosa;37.241
 BA;29;1106;Amélia Rodrigues;25.102
 BA;29;1155;América Dourada;16.094
 BA;29;1205;Anagé;22.005
@@ -1858,7 +1858,7 @@ BA;29;2302;Aratuípe;8.825
 BA;29;2401;Aurelino Leal;11.531
 BA;29;2500;Baianópolis;13.877
 BA;29;2609;Baixa Grande;20.468
-BA;29;2658;Banzaê;13.229(11)
+BA;29;2658;Banzaê;13.229
 BA;29;2708;Barra;53.578
 BA;29;2807;Barra da Estiva;20.598
 BA;29;2906;Barra do Choça;31.603
@@ -1936,7 +1936,7 @@ BA;29;8804;Contendas do Sincorá;4.066
 BA;29;8903;Coração de Maria;22.605
 BA;29;9000;Cordeiros;8.614
 BA;29;9109;Coribe;14.194
-BA;29;9208;Coronel João Sá;15.895(12)
+BA;29;9208;Coronel João Sá;15.895
 BA;29;9307;Correntina;32.137
 BA;29;9406;Cotegipe;13.782
 BA;29;9505;Cravolândia;5.349
@@ -1952,7 +1952,7 @@ BA;29;10305;Elísio Medrado;8.122
 BA;29;10404;Encruzilhada;17.006
 BA;29;10503;Entre Rios;41.780
 BA;29;10602;Esplanada;37.237
-BA;29;10701;Euclides da Cunha;60.585(13)
+BA;29;10701;Euclides da Cunha;60.585
 BA;29;10727;Eunápolis;113.380
 BA;29;10750;Fátima;17.890
 BA;29;10776;Feira da Mata;5.665
@@ -1964,7 +1964,7 @@ BA;29;11105;Formosa do Rio Preto;25.591
 BA;29;11204;Gandu;32.403
 BA;29;11253;Gavião;4.463
 BA;29;11303;Gentio do Ouro;11.233
-BA;29;11402;Glória;15.221(14)
+BA;29;11402;Glória;15.221
 BA;29;11501;Gongogi;7.128
 BA;29;11600;Governador Mangabeira;20.722
 BA;29;11659;Guajeru;6.937
@@ -1972,7 +1972,7 @@ BA;29;11709;Guanambi;84.481
 BA;29;11808;Guaratinga;20.843
 BA;29;11857;Heliópolis;13.031
 BA;29;11907;Iaçu;24.305
-BA;29;12004;Ibiassucê;9.224(15)
+BA;29;12004;Ibiassucê;9.224
 BA;29;12103;Ibicaraí;21.689
 BA;29;12202;Ibicoara;19.571
 BA;29;12301;Ibicuí;16.198
@@ -2158,7 +2158,7 @@ BA;29;26707;Rio de Contas;12.989
 BA;29;26806;Rio do Antônio;15.371
 BA;29;26905;Rio do Pires;11.655
 BA;29;27002;Rio Real;40.732
-BA;29;27101;Rodelas;9.331(16)
+BA;29;27101;Rodelas;9.331
 BA;29;27200;Ruy Barbosa;30.814
 BA;29;27309;Salinas da Margarida;15.667
 BA;29;27408;Salvador;2.872.347
@@ -2206,7 +2206,7 @@ BA;29;30709;Simões Filho;134.377
 BA;29;30758;Sítio do Mato;13.012
 BA;29;30766;Sítio do Quinto;9.986
 BA;29;30774;Sobradinho;23.191
-BA;29;30808;Souto Soares;16.979(17)
+BA;29;30808;Souto Soares;16.979
 BA;29;30907;Tabocas do Brejo Velho;12.518
 BA;29;31004;Tanhaçu;20.403
 BA;29;31053;Tanque Novo;17.366
@@ -2236,7 +2236,7 @@ BA;29;33059;Várzea da Roça;14.104
 BA;29;33109;Várzea do Poço;9.170
 BA;29;33158;Várzea Nova;12.697
 BA;29;33174;Varzedo;8.838
-BA;29;33208;Vera Cruz;43.223(18)
+BA;29;33208;Vera Cruz;43.223
 BA;29;33257;Vereda;6.205
 BA;29;33307;Vitória da Conquista;338.480
 BA;29;33406;Wagner;9.345
@@ -4242,7 +4242,7 @@ PR;41;23857;Santa Maria do Oeste;9.615
 PR;41;23907;Santa Mariana;11.724
 PR;41;23956;Santa Mônica;3.981
 PR;41;24004;Santana do Itararé;4.992
-PR;41;24020;Santa Tereza do Oeste;10.139(19)
+PR;41;24020;Santa Tereza do Oeste;10.139
 PR;41;24053;Santa Terezinha de Itaipu;23.465
 PR;41;24103;Santo Antônio da Platina;45.993
 PR;41;24202;Santo Antônio do Caiuá;2.641
@@ -5310,7 +5310,7 @@ MT;51;7925;Sorriso;90.313
 MT;51;7941;Tabaporã;9.489
 MT;51;7958;Tangará da Serra;103.750
 MT;51;8006;Tapurah;13.705
-MT;51;8055;Terra Nova do Norte;9.667(20)
+MT;51;8055;Terra Nova do Norte;9.667
 MT;51;8105;Tesouro;3.805
 MT;51;8204;Torixoréu;3.609
 MT;51;8303;União do Sul;3.525
