@@ -1,5 +1,9 @@
 #Importing data from Infodengue API of all cities of a given State in Brazil
 #Example: Parana state (399 cities)
+if(!require(tidyverse)){
+    install.packages("tidyverse")
+    library(tidyverse)
+}
 
 load(file = "PR_geocode.rda") #this dataset contais names and geocode of each city
 url <- "https://info.dengue.mat.br/api/alertcity/?"
